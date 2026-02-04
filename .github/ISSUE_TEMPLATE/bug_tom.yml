@@ -1,0 +1,22 @@
+name: Bug Report (TOM)
+description: Report a bug in TOM
+title: "[TOM] "
+labels:
+  - bug
+  - TOM
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: What happened and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true

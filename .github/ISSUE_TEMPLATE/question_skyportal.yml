@@ -1,0 +1,14 @@
+name: Question (Skyportal)
+description: Ask a question about Skyportal
+title: "[Skyportal][Question] "
+labels:
+  - question
+  - Skyportal
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

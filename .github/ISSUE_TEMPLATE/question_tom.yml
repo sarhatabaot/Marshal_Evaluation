@@ -1,0 +1,14 @@
+name: Question (TOM)
+description: Ask a question about TOM
+title: "[TOM][Question] "
+labels:
+  - question
+  - TOM
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

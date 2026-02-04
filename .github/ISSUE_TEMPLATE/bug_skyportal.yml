@@ -1,0 +1,21 @@
+name: Bug Report (Skyportal)
+description: Report a bug in Skyportal
+title: "[Skyportal] "
+labels:
+  - bug
+  - Skyportal
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
